@@ -1,0 +1,25 @@
+# R session and history
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*~
+
+# Run logs and scratch output
+logs/
+derivation_check_output/
+full_run_*.txt
+Rplots.pdf
+# Undotted copies from v9.0.0, replaced by .gitignore and .gitattributes
+/gitignore
+/gitattributes
+
+# Committed compressed instead (see README)
+sim_output_v10/rho_sweep.csv
+
+# sim_output_v9/, sim_output_v10/, audit_output_v10/ and sorghum_scan/ are
+# committed: the paper's Data availability statement points to them.

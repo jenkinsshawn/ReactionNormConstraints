@@ -1,0 +1,74 @@
+========================================================
+ SIMULATION REPRODUCIBILITY LOG (ReactionNormConstraints v10.0.0)
+ Date: 2026-10-06 14:18:28 
+ SMOKE_TEST = FALSE; Experiments 1-25 = TRUE; Experiments 26-29 = TRUE; workers = 30
+========================================================
+
+--- Default Simulation Parameters ---
+n_geno          : 500
+n_markers       : 2000
+maf_min         : 0.05
+pop_structure   : diverse
+n_mean_qtl      : 10
+n_shared_qtl    : 10
+n_indep_qtl     : 5
+n_cn_qtl        : 3
+n_ap_qtl        : 2
+var_a_mean      : 0.04
+var_a_shared    : 0.04
+ds_coupling     : 0.8
+var_a_indep     : 0.04
+var_a_cn        : 0.04
+cn_threshold    : 0
+var_a_ap        : 0.04
+ap_coupling     : -0.6
+n_env           : 12
+sigma_E         : 3
+env_range       : wide
+rho             : 0.95
+kappa           : 1
+sigma_res       : 1
+alpha_bonf      : 0.05
+hetero_res      : FALSE
+gwas_method     : simple
+n_pc            : 3
+pct_missing     : 0
+n_reps          : 1
+ld_window       : 5
+nonlinear       : FALSE
+var_a_quad      : 0
+run_gp          : TRUE
+n_so_qtl        : 0
+var_a_so        : 0.04
+so_axis         : index
+so_center       : intercept
+core_sim        : FALSE
+core_maf        : 0.3
+fixed_effects   : FALSE
+predict_power   : FALSE
+pve_cols        : FALSE
+audit_cols      : FALSE
+
+--- Session Information ---
+R version 4.6.1 (2026-06-24 ucrt)
+Platform: x86_64-w64-mingw32/x64
+Running under: Windows 11 x64 (build 26300)
+
+Matrix products: default
+  LAPACK version 3.12.1
+
+locale:
+[1] LC_COLLATE=English_United States.utf8 
+[2] LC_CTYPE=English_United States.utf8   
+[3] LC_MONETARY=English_United States.utf8
+[4] LC_NUMERIC=C                          
+[5] LC_TIME=English_United States.utf8    
+
+time zone: America/Chicago
+tzcode source: internal
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base     
+
+loaded via a namespace (and not attached):
+[1] compiler_4.6.1      parallel_4.6.1      data.table_1.18.6.1

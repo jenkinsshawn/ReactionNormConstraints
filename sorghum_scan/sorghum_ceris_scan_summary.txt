@@ -1,0 +1,5 @@
+Candidates: 27144 (4 parameters x 6786 windows)
+Environments: 7; lines with records: 237
+Highest |rho|: PTT, days 18 to 43, rho = 0.9965, tau_max = 0.083, 1/tau_max^2 = 145
+Candidates with |rho| >= 0.99: 277; >= 0.90: 2956
+Candidates with |rho| >= 0.99 by parameter: PTT 277

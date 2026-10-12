@@ -1,0 +1,22 @@
+# Normalize line endings on checkin; check out LF everywhere.
+* text=auto eol=lf
+
+# Explicit text types
+*.R    text eol=lf
+*.md   text eol=lf
+*.txt  text eol=lf
+*.csv  text eol=lf
+*.ps1  text eol=crlf
+
+# Binary assets (no diff/merge munging, no EOL conversion)
+*.pdf  binary
+*.docx binary
+*.xlsx binary
+*.png  binary
+*.jpg  binary
+
+# v9.0.0 data kept byte-identical to the v9.0.0 release
+cross_study.csv -text
+sim_output_v9/** -text
+*.tiff binary
+*.gz binary
